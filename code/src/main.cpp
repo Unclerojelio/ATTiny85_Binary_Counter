@@ -20,6 +20,7 @@ void loop() {
     digitalWrite(PCINT1, x & B0010);
     digitalWrite(PCINT2, x & B0100);
     digitalWrite(PCINT3, x & B1000);
-    delay(1000);
+    delay(63);  // 1000/16, because this ATTiny85 does not have a bootloader
+                // is running at 1MHz.
   }
 }
