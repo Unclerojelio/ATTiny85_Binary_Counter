@@ -4,7 +4,7 @@
   "name": "ATTiny85_Binary_Counter",
   "content": "",
   "created_at": "2021-08-14 17:24:51",
-  "updated_at": "2021-08-14 18:17:22",
+  "updated_at": "2021-08-15 10:18:58",
   "stick": "",
   "documents": [
     {
@@ -17,7 +17,8 @@
       "components": {
         "7a2faf02889040879843b86b9aea3213": 1,
         "9bfc7ef8508843889d08aa0123a38a6c": 4,
-        "7bd53dfb5c914400ade2828659e972b3": 1
+        "7bd53dfb5c914400ade2828659e972b3": 1,
+        "a4fe717ca3034468844f06ea737fb719": 4
       },
       "BOM": [
         [
@@ -50,6 +51,17 @@
           }
         ],
         [
+          "RESISTOR",
+          4,
+          "RTH025W",
+          "R1,R2,R3,R4",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "cb8201f67805495e80041846ebc6ff33",
+            "uuid": "a4fe717ca3034468844f06ea737fb719"
+          }
+        ],
+        [
           "ATTINY85-20PU",
           1,
           "PDIP-8_L9.3-W6.4-P2.54-LS7.6-BL",
@@ -64,11 +76,11 @@
           }
         ]
       ],
-      "updateTime": 1628981863,
+      "updateTime": 1629040100,
       "createTime": 1628981046,
       "histories": [],
       "created_at": "2021-08-14 17:44:06",
-      "updated_at": "2021-08-14 17:57:43"
+      "updated_at": "2021-08-15 10:08:20"
     },
     {
       "uuid": "372dbd267a152c40ec09de3341d934ca",
@@ -80,21 +92,22 @@
       "master": "",
       "thumb": "/images/thumb-default.png",
       "components": {
+        "cb8201f67805495e80041846ebc6ff33": 4,
         "8098700575e04cbcb292820860aff651": 1,
         "41500ebec55644099429cf84718c4fb6": 4,
         "61a55cacd5b14f109a68b11c09571ea3": 1
       },
       "BOM": [],
-      "updateTime": 1628983042,
+      "updateTime": 1629040738,
       "createTime": 1628983042,
       "histories": [],
       "created_at": "2021-08-14 18:17:22",
-      "updated_at": "2021-08-14 18:17:22"
+      "updated_at": "2021-08-15 10:18:58"
     }
   ],
   "sort": [],
   "title": "ATTiny85_Binary_Counter",
   "foldername": "ATTiny85_Binary_Counter",
   "schfilename": "ATTiny85_Binary_Counter.json",
-  "schfilemtime": 1628981863000
+  "schfilemtime": 1629040100000
 }
