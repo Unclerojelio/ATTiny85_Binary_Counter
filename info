@@ -1,0 +1,100 @@
+{
+  "uuid": "61dc999df8a36304250ad8512ea1738f",
+  "path": "Offline/ATTiny85_Binary_Counter",
+  "name": "ATTiny85_Binary_Counter",
+  "content": "",
+  "created_at": "2021-08-14 17:24:51",
+  "updated_at": "2021-08-14 18:17:22",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "e0e4a1e47c961f1e42a398cf1dc94ced",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "7a2faf02889040879843b86b9aea3213": 1,
+        "9bfc7ef8508843889d08aa0123a38a6c": 4,
+        "7bd53dfb5c914400ade2828659e972b3": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "CON_DC_M-DC_PTH",
+          1,
+          "DC_BARREL_JACK_PTH_2MM",
+          "J1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "8098700575e04cbcb292820860aff651",
+            "uuid": "7bd53dfb5c914400ade2828659e972b3"
+          }
+        ],
+        [
+          "LED5MM",
+          4,
+          "LED5MM",
+          "LED1,LED2,LED3,LED4",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "41500ebec55644099429cf84718c4fb6",
+            "uuid": "9bfc7ef8508843889d08aa0123a38a6c"
+          }
+        ],
+        [
+          "ATTINY85-20PU",
+          1,
+          "PDIP-8_L9.3-W6.4-P2.54-LS7.6-BL",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C965497",
+            "BOM_Manufacturer": "MICROCHIP(美国微芯)",
+            "BOM_Manufacturer Part": "ATTINY85-20PU",
+            "puuid": "61a55cacd5b14f109a68b11c09571ea3",
+            "uuid": "7a2faf02889040879843b86b9aea3213"
+          }
+        ]
+      ],
+      "updateTime": 1628981863,
+      "createTime": 1628981046,
+      "histories": [],
+      "created_at": "2021-08-14 17:44:06",
+      "updated_at": "2021-08-14 17:57:43"
+    },
+    {
+      "uuid": "372dbd267a152c40ec09de3341d934ca",
+      "puuid": "61dc999df8a36304250ad8512ea1738f",
+      "title": "PCB_ATTiny85_Binary_Counter",
+      "filename": "PCB_ATTiny85_Binary_Counter.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "8098700575e04cbcb292820860aff651": 1,
+        "41500ebec55644099429cf84718c4fb6": 4,
+        "61a55cacd5b14f109a68b11c09571ea3": 1
+      },
+      "BOM": [],
+      "updateTime": 1628983042,
+      "createTime": 1628983042,
+      "histories": [],
+      "created_at": "2021-08-14 18:17:22",
+      "updated_at": "2021-08-14 18:17:22"
+    }
+  ],
+  "sort": [],
+  "title": "ATTiny85_Binary_Counter",
+  "foldername": "ATTiny85_Binary_Counter",
+  "schfilename": "ATTiny85_Binary_Counter.json",
+  "schfilemtime": 1628981863000
+}
